@@ -28,7 +28,8 @@ public class CPU
 	public final static int DUP		= 0x14;
 	public final static int POP		= 0x15;
 	
-	// TODO something is missing here...
+	private int opCode;
+	private IO ioSystem;
 
 	public void run()
 	{
@@ -49,22 +50,22 @@ public class CPU
 					}
 					case PUSH:
 					{
-						// TODO something is missing here...
+						// TODO Push a value on top of expression stack
 						break;
 					}
 					case ADD:
 					{
-						// TODO something is missing here...
+						// TODO Pop two values from expression stack, add the 1st to the 2nd, push the result on expression stack
 						break;
 					}
 					case SUB:
 					{
-						// TODO something is missing here...
+						// TODO Pop two values from expression stack, substract the 1st to the 2nd, push the result on expression stack.
 						break;
 					}
 					case MUL:
 					{
-						// TODO something is missing here...
+						// TODO Pop two values from expression stack, multiply the 1st by the 2nd, push the result on expression stack
 						break;
 					}
 					case DIV:
@@ -176,6 +177,36 @@ public class CPU
 		{
 			// TODO something is missing here...
 		}		
+	}
+
+	public void setPC(int address) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void clearStacks() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void wireToIoSubsystem(IO ioSystem) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void wireToProgramMemory(Memory programMemory) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void wireToExpStack(Stack expStack) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void wireToCallStack(Stack callStack) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	// TODO something is missing here...
