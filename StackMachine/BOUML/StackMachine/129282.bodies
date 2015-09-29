@@ -1,0 +1,9 @@
+class Instruction
+!!!129282.java!!!	Instruction(in in : int, inout object : Object)
+		// TODO Auto-generated constructor stub
+!!!129410.java!!!	getParams() : int
+		// TODO Auto-generated method stub
+		return null;
+!!!129538.java!!!	getOpCode() : int
+		// TODO Auto-generated method stub
+		return 0;
